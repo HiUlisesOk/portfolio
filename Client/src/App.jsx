@@ -2,7 +2,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-
+import CssBaseline from '@mui/material/CssBaseline';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <CssBaseline />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
