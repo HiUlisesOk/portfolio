@@ -40,7 +40,7 @@ export default function TemporaryDrawer() {
 		>
 			<List>
 				{[{ text: 'Home', icon: <HomeIcon />, navigate: '/' },
-				{ text: 'About Me', icon: <PersonIcon />, navigate: '/' },
+				{ text: 'About Me', icon: <PersonIcon />, navigate: '/about-me' },
 				{ text: 'Portfolio', icon: <WorkIcon />, navigate: '/' },
 				{ text: 'Contact', icon: <ContactPhoneIcon />, navigate: '/' }].map((item, index) => (
 					<Link key={item.text} to={item.navigate}>

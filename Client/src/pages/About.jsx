@@ -13,7 +13,7 @@ import avatarIMG from "../images/PROFILE_IMAGE_CODE2.png"
 import Image3d from '../components/Image3d'
 import Rocket from '../images/Assets/Saly-43.png'
 
-const LandingPage = () => {
+const About = () => {
 	return (
 		<div>
 			<Box sx={{ flexGrow: 1 }}>
@@ -54,4 +54,4 @@ const LandingPage = () => {
 	)
 }
 
-export default LandingPage
+export default About
