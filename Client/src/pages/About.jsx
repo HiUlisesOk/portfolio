@@ -11,36 +11,21 @@ import { FlexContainer, Title, SubTitle, Text, TextPrimary, TextSecondary } from
 import LinksTech from '../components/LinksTech'
 import avatarIMG from "../images/PROFILE_IMAGE_CODE2.png"
 import Image3d from '../components/Image3d'
-import Rocket from '../images/Assets/Saly-43.png'
+import Rocket from '../images/Assets/orange-diamond.png'
 
 const About = () => {
 	return (
 		<div>
 			<Box sx={{ flexGrow: 1 }}>
 				<Grid container spacing={2}>
-					<Grid item xs={4}>
-						<FlexContainer justify="flex-start">
 
-							<Avatar alt="Ulises Esquivel" sx={{ width: 250, height: 250 }} src={avatarIMG} />
+					<Grid item xs={5}>
+						<FlexContainer justify="flex-start"><LinksTech title="Hello World!" /></FlexContainer>
+						<SubTitle lh="1.8rem"><TextSecondary>Full-Stack Developer</TextSecondary> with experience working in <TextPrimary>NodeJS, React, Redux, Express, SQL</TextPrimary> among other technologies in the sector. </SubTitle>
 
-						</FlexContainer>
-
-						<Title>MY NAME IS ULISES</Title>
-
-						<SubTitle>I'm a <TextSecondary>Full-Stack</TextSecondary> developer</SubTitle>
-
-						<Text>My goal is to<TextPrimary> apply my skills and knowledge to solve problems</TextPrimary> <TextSecondary>and improve people's lives </TextSecondary>through innovative and efficient applications.</Text>
-
-						<FlexContainer justify="flex-start">
-							<Link to="/about-me">
-								<Button sx={{ bgcolor: 'primary.main' }} variant="contained" size="large">
-									🚀 Lets Get Started!
-								</Button>
-							</Link>
-						</FlexContainer>
 					</Grid>
-					<Grid item xs={8}>
-						<LinksTech title="Hello World!" />
+					<Grid item xs={6}>
+
 						<FlexContainer justify="flex-end">
 
 							<Image3d height="70%" image={Rocket} />

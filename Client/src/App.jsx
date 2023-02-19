@@ -14,7 +14,7 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import LandingPage from "./pages/LandingPage"
-import About from './pages/about';
+import About from './pages/About';
 
 import NavBar from './components/NavBar';
 import Logo from './components/Logo';
