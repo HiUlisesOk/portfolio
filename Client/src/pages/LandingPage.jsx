@@ -36,7 +36,7 @@ const LandingPage = () => {
 								<Button sx={{ bgcolor: 'primary.main' }} variant="contained" size="large">
 									🚀 Lets Get Started!
 								</Button>
-							</Link>
+							</Link>|
 						</FlexContainer>
 					</Grid>
 					<Grid item xs={8}>
