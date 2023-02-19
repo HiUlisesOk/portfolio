@@ -9,7 +9,7 @@ Each project includes:
 
 ## Front-End Technologies
 - HTML 🖥
-- CSS 🎨
+- CSS, Material UI, Styled Components 🎨
 - React 🚀
 - JavaScript 🛠️
 
