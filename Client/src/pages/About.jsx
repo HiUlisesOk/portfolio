@@ -1,18 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import Button from '@mui/material/Button';
 
-import { FlexContainer, Title, SubTitle, Text, TextPrimary, TextSecondary } from '../components/styles'
+
+import { FlexContainer, Title, SubTitle, Text, TextPrimary, TextSecondary, Diamond } from '../components/styles'
 
 import LinksTech from '../components/LinksTech'
-import avatarIMG from "../images/PROFILE_IMAGE_CODE2.png"
-import Image3d from '../components/Image3d'
-import Rocket from '../images/Assets/orange-diamond.png'
 
+import Image3d from '../components/Image3d'
+import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import DevicesIcon from '@mui/icons-material/Devices';
+import DiamondOrange from '../images/Assets/orange-diamond.png'
 const About = () => {
 	return (
 		<div>
@@ -22,13 +23,17 @@ const About = () => {
 					<Grid item xs={5}>
 						<FlexContainer justify="flex-start"><LinksTech title="Hello World!" /></FlexContainer>
 						<SubTitle lh="1.8rem"><TextSecondary>Full-Stack Developer</TextSecondary> with experience working in <TextPrimary>NodeJS, React, Redux, Express, SQL</TextPrimary> among other technologies in the sector. </SubTitle>
-
+						<FlexContainer padding="8px" justify="flex-start">
+							<Diamond><DeveloperModeIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
+							<Diamond><MenuBookIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
+							<Diamond><DevicesIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
+						</FlexContainer>
 					</Grid>
 					<Grid item xs={6}>
 
 						<FlexContainer justify="flex-end">
 
-							<Image3d height="70%" image={Rocket} />
+							<Image3d height="90%" image={DiamondOrange} />
 
 						</FlexContainer>
 					</Grid>
