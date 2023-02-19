@@ -1,15 +1,12 @@
 #root {
   background-color: #111419;
   color: #f1f2ed;
-  margin: 0 auto;
-  padding: 0 10px;
   min-height: 100vh;
   text-align: center;
+  padding: 2rem;
 }
-.notAllowed {
-  cursor: not-allowed;
-  pointer-events: auto;
+.App {
+  max-width: 1280px;
+  margin: auto;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
