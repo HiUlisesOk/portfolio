@@ -1,9 +1,12 @@
 #root {
   background-color: #111419;
   color: #f1f2ed;
-  margin: 0 auto;
-  padding: 0 10px;
   min-height: 100vh;
   text-align: center;
+  padding: 2rem;
+}
+.App {
+  max-width: 1280px;
+  margin: auto;
 }
 
