@@ -46,3 +46,21 @@ bottom:${props => props.bottom ? props.bottom : "0"};
 right:${props => props.right ? props.right : "0"};
 z-index:1;
 `;
+
+export const Diamond = styled.div`
+width: 4.621rem;
+height: 4.621rem;
+Position:relative;
+background:${props => props.bg ? props.bg : "linear-gradient(90deg, #E99010 0%, #E58523 6.25%, #E27B33 12.5%, #DF743F 18.75%, #DD6E49 25%, #DB6951 31.25%, #DA6657 37.5%, #D9635C 43.75%, #D8615F 50%, #D86061 56.25%, #D75F62 62.5%, #D75E63 68.75%, #D75E64 75%, #D75E64 81.25%, #D75E64 87.5%, #D75E64 93.75%, #D75E64 100%)"} ;
+border:${props => props.border ? props.border : "4px solid #E48229"};
+border-radius:${props => props.radius ? props.radius : "16px"};
+transform: rotate(${props => props.rotate ? props.rotate : "-45deg"});
+margin: ${props => props.margin ? props.margin : "12px"};
+margin-right: ${props => props.mr ? props.mr : "22px"};
+cursor: pointer;
+scale: 0.8;
+transition: scale 0.4s ease-in-out;
+&:hover {
+    scale: 1.1;
+  }
+`;
