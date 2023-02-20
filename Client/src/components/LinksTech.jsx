@@ -11,10 +11,10 @@ const LinksTech = () => {
 
 			<FlexContainer justify="flex-start">
 
-				<img src={linkedin} alt="man technologist light skin tone" />
-				<img src={github} alt="man technologist light skin tone" />
+				<img src={linkedin} alt="linkedIn Button" />
+				<img src={github} alt="Github Button" />
 
-				<Button variant="contained" color="secondary" sx={{ height: "1.5rem" }} endIcon={<DownloadIcon />}>Get Resume</Button>
+				<Button variant="contained" color="secondary" sx={{ height: "1.5rem", zIndex: 999 }} endIcon={<DownloadIcon />}>Get Resume</Button>
 
 			</FlexContainer>
 
