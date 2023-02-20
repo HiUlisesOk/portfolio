@@ -17,38 +17,29 @@ const LandingPage = () => {
 	return (
 		<div>
 			<Box sx={{ flexGrow: 1 }}>
-				<Grid container spacing={2}>
-					<Grid item xs={4}>
-						<FlexContainer justify="flex-start">
 
-							<Avatar alt="Ulises Esquivel" sx={{ width: 250, height: 250 }} src={avatarIMG} />
 
-						</FlexContainer>
+				<FlexContainer direction="column" justify="center">
 
-						<Title>MY NAME IS ULISES</Title>
+					<Avatar alt="Ulises Esquivel Profile Picture" sx={{ width: 257, height: 257 }} src={avatarIMG} />
 
-						<SubTitle>I'm a <TextSecondary>Full-Stack</TextSecondary> developer</SubTitle>
 
-						<Text>My goal is to<TextPrimary> apply my skills and knowledge to solve problems</TextPrimary> <TextSecondary>and improve people's lives </TextSecondary>through innovative and efficient applications.</Text>
 
-						<FlexContainer justify="flex-start">
-							<Link to="/about-me">
-								<Button sx={{ bgcolor: 'primary.main' }} variant="contained" size="large">
-									🚀 Lets Get Started!
-								</Button>
-							</Link>
-						</FlexContainer>
-					</Grid>
-					<Grid item xs={8}>
+					<Title margin="0px">MY NAME IS ULISES</Title>
 
-						<FlexContainer justify="flex-end">
+					<SubTitle margin="0px">I'm a <TextSecondary>Full-Stack</TextSecondary> developer</SubTitle>
 
-							<Image3d height="70%" image={Rocket} />
+					<Text w="40%" align="center" margin="6px">My goal is to<TextPrimary> apply my skills and knowledge to solve problems</TextPrimary> <TextSecondary>and improve people's lives </TextSecondary>through innovative and efficient applications.</Text>
 
-						</FlexContainer>
-					</Grid>
+					<FlexContainer justify="flex-start">
+						<Link to="/about-me">
+							<Button sx={{ bgcolor: 'primary.main' }} variant="contained" size="large">
+								🚀 Lets Get Started!
+							</Button>
+						</Link>
+					</FlexContainer>
 
-				</Grid>
+				</FlexContainer>
 			</Box>
 		</div>
 	)
