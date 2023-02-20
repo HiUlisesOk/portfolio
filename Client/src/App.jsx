@@ -19,6 +19,7 @@ import About from './pages/About';
 import NavBar from './components/NavBar';
 import Logo from './components/Logo';
 import { FlexContainer } from './components/styles'
+import Header from './components/Header';
 
 
 const theme = createTheme({
@@ -36,8 +37,8 @@ function App() {
         <Box sx={{ flexGrow: 1 }}>
 
           <Routes>
-            <Route path="/" element={<Grid container spacing={2}><Grid item xs={12}><FlexContainer items="flex-start" justify="flex-start"><Logo /></FlexContainer></Grid><Grid item xs={12}><LandingPage /></Grid></Grid>} />
-            <Route path="/about-me" element={<Grid container spacing={2}><Grid item xs={12}><FlexContainer items="flex-start" justify="flex-start"><NavBar /><Logo /></FlexContainer></Grid><Grid item xs={12}><About /></Grid></Grid>} />
+            <Route path="/" element={<Grid container spacing={2}><Grid item xs={12}><Header /></Grid><Grid item xs={12}><LandingPage /></Grid></Grid>} />
+            <Route path="/about-me" element={<Grid container spacing={2}><Grid item xs={12}><Header /></Grid><Grid item xs={12}><About /></Grid></Grid>} />
 
           </Routes>
 

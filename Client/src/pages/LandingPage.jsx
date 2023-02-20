@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 
 import { FlexContainer, Title, SubTitle, Text, TextPrimary, TextSecondary } from '../components/styles'
 
-import LinksTech from '../components/LinksTech'
+
 import avatarIMG from "../images/PROFILE_IMAGE_CODE2.png"
 import Image3d from '../components/Image3d'
 import Rocket from '../images/Assets/Saly-43.png'
@@ -40,7 +40,7 @@ const LandingPage = () => {
 						</FlexContainer>
 					</Grid>
 					<Grid item xs={8}>
-						<LinksTech title="Hello World!" />
+
 						<FlexContainer justify="flex-end">
 
 							<Image3d height="70%" image={Rocket} />
