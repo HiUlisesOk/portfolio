@@ -21,7 +21,7 @@ const About = () => {
 				<Grid container spacing={2}>
 
 					<Grid item xs={5}>
-						<FlexContainer justify="flex-start"><LinksTech title="Hello World!" /></FlexContainer>
+
 						<SubTitle lh="1.8rem"><TextSecondary>Full-Stack Developer</TextSecondary> with experience working in <TextPrimary>NodeJS, React, Redux, Express, SQL</TextPrimary> among other technologies in the sector. </SubTitle>
 						<FlexContainer padding="8px" justify="flex-start">
 							<Diamond><DeveloperModeIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>

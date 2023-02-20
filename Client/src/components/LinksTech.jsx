@@ -1,21 +1,13 @@
 import React from 'react'
-import manTechLogo from '../images/Assets/man-technologist-light-skin-tone_svgrepo.com.png'
 import github from '../images/Assets/Github.png'
 import linkedin from '../images/Assets/Linkedin.png'
 import Button from '@mui/material/Button';
 import DownloadIcon from '@mui/icons-material/Download';
 import { FlexContainer } from './styles'
-const LinksTech = ({ title }) => {
+const LinksTech = () => {
 	return (<FlexContainer justify="flex-end">
 
-
 		<div>
-			<img src={manTechLogo} alt="man technologist light skin tone" />
-
-		</div>
-		<div>
-
-			<FlexContainer justify="flex-start">{title}</FlexContainer>
 
 			<FlexContainer justify="flex-start">
 
