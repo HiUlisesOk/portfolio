@@ -29,7 +29,7 @@ const LandingPage = () => {
 
 					<SubTitle margin="0px">I'm a <TextSecondary>Full-Stack</TextSecondary> developer</SubTitle>
 
-					<Text w="40%" align="center" margin="6px">My goal is to<TextPrimary> apply my skills and knowledge to solve problems</TextPrimary> <TextSecondary>and improve people's lives </TextSecondary>through innovative and efficient applications.</Text>
+					<Text w="35%" align="center" margin="6px">My goal is to<TextPrimary> apply my skills and knowledge to solve problems</TextPrimary> <TextSecondary>and improve people's lives </TextSecondary>through innovative and efficient applications.</Text>
 
 					<FlexContainer justify="flex-start">
 						<Link to="/about-me">

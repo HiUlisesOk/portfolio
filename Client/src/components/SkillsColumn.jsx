@@ -24,9 +24,9 @@ import VisualStudio from '../images/Assets/right skills/icon _windows_.png'
 const left = [Trello, Auth0, Jquery, Jest, MaterialUi, Npm, Figma, Canva, Ps, Lr]
 const Right = [Premiere, Notion, Slack, Aws, Windows, Bootstrap, Jira, Obs, Insomnia, VisualStudio]
 
-const SkillsColumn = ({ direction }) => {
+const SkillsColumn = ({ leftColumn }) => {
 	return (
-		<div>{direction ? left.map((skill, index) => <div key={skill + index}><img src={skill} /></div>) : Right.map((skill, index) => <div key={skill + index}><img src={skill} /></div>)}</div>
+		<div>{leftColumn ? left.map((skill, index) => <div key={skill + index}><img src={skill} /></div>) : Right.map((skill, index) => <div key={skill + index}><img src={skill} /></div>)}</div>
 	)
 }
 
