@@ -6,13 +6,19 @@ import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+
+
+import ListItemIcon from '@mui/material/ListItemIcon';
 import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import WorkIcon from '@mui/icons-material/Work';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import MenuIcon from '@mui/icons-material/Menu';
+import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import DevicesIcon from '@mui/icons-material/Devices';
+
 import { Link } from 'react-router-dom'
 
 export default function TemporaryDrawer() {
@@ -39,10 +45,17 @@ export default function TemporaryDrawer() {
 			onKeyDown={toggleDrawer(anchor, false)}
 		>
 			<List>
-				{[{ text: 'Home', icon: <HomeIcon />, navigate: '/' },
-				{ text: 'About Me', icon: <PersonIcon />, navigate: '/about-me' },
-				{ text: 'Portfolio', icon: <WorkIcon />, navigate: '/' },
-				{ text: 'Contact', icon: <ContactPhoneIcon />, navigate: '/' }].map((item, index) => (
+				{[
+
+					{ text: 'Home', icon: <HomeIcon />, navigate: '/' },
+					{ text: 'About Me', icon: <PersonIcon />, navigate: '/about-me' },
+					{ text: 'Proyects', icon: <WorkIcon />, navigate: '/' },
+					{ text: 'Tech Skills', icon: <DeveloperModeIcon />, navigate: '/tech-skills' },
+					{ text: 'Why Hire Me', icon: <MenuBookIcon />, navigate: '/' },
+					{ text: 'Contact', icon: <ContactPhoneIcon />, navigate: '/' },
+
+
+				].map((item, index) => (
 					<Link key={item.text} to={item.navigate}>
 						<ListItem disablePadding>
 							<ListItemButton>

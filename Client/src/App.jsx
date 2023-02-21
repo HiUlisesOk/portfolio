@@ -15,12 +15,12 @@ import './App.css'
 
 import LandingPage from "./pages/LandingPage"
 import About from './pages/About';
+import TechSkills from './pages/TechSkills';
 
 import NavBar from './components/NavBar';
 import Logo from './components/Logo';
 import { FlexContainer } from './components/styles'
 import Header from './components/Header';
-
 
 const theme = createTheme({
   palette: customPalette,
@@ -35,10 +35,11 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Box sx={{ flexGrow: 1 }}>
-
+          <Header />
           <Routes>
-            <Route path="/" element={<Grid container spacing={2}><Grid item xs={12}><Header /></Grid><Grid item xs={12}><LandingPage /></Grid></Grid>} />
-            <Route path="/about-me" element={<Grid container spacing={2}><Grid item xs={12}><Header /></Grid><Grid item xs={12}><About /></Grid></Grid>} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/about-me" element={<About />} />
+            <Route path="/tech-skills" element={<TechSkills />} />
 
           </Routes>
 
