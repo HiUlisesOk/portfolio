@@ -12,6 +12,7 @@ height: ${props => props.h ? props.h : "auto"};
   align-items: ${props => props.items ? props.items : "center"};
   transform: rotate(${props => props.rotate ? props.rotate : "0"});
   margin-top: ${props => props.mt ? props.mt : "auto"};
+  z-index:${props => props.zindx ? props.zindx : "0"};
 `;
 
 export const Title = styled.h1`
@@ -76,6 +77,7 @@ transition: ${props => props.transition ? props.transition : "all 0.4s ease-in-o
   scale: ${props => props.scaleHov ? props.scaleHov : "1.1"};
   ${props => props.hover ? props.hover + ";" : ""}
   }
+
 `;
 
 export const IconDiamond = styled.img`

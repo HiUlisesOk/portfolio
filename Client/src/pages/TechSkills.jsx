@@ -10,7 +10,7 @@ const TechSkills = () => {
 
 			<FlexContainer justify="space-around">
 
-				<SkillsColumn />
+				<SkillsColumn leftColumn="true" />
 
 				<FlexContainer direction="column">
 
