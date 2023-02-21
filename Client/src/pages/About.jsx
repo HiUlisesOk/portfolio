@@ -24,9 +24,9 @@ const About = () => {
 						<SubTitle margin="10%" fw="200" ml="12px">About Me</SubTitle>
 						<SubTitle lh="1.8rem"><TextSecondary>Full-Stack Developer</TextSecondary> with experience working in <TextPrimary>NodeJS, React, Redux, Express, SQL</TextPrimary> among other technologies in the sector. </SubTitle>
 						<FlexContainer padding="8px" justify="flex-start">
-							<Diamond><DeveloperModeIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
-							<Diamond><MenuBookIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
-							<Diamond><DevicesIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
+							<Link to="/tech-skills"><Diamond rotate="-45deg"><DeveloperModeIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond></Link>
+							<Diamond rotate="-45deg"><MenuBookIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
+							<Diamond rotate="-45deg"><DevicesIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
 						</FlexContainer>
 					</Grid>
 					<Grid item xs={6}>
