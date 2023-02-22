@@ -25,8 +25,8 @@ const About = () => {
 						<SubTitle lh="1.8rem"><TextSecondary>Full-Stack Developer</TextSecondary> with experience working in <TextPrimary>NodeJS, React, Redux, Express, SQL</TextPrimary> among other technologies in the sector. </SubTitle>
 						<FlexContainer padding="8px" justify="flex-start">
 							<Link to="/tech-skills"><Diamond rotate="-45deg"><DeveloperModeIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond></Link>
-							<Diamond rotate="-45deg"><MenuBookIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
-							<Diamond rotate="-45deg"><DevicesIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond>
+							<Link to="/hire-me"><Diamond rotate="-45deg"><MenuBookIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond></Link>
+							<Link to="/projects"><Diamond rotate="-45deg"><DevicesIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond></Link>
 						</FlexContainer>
 					</Grid>
 					<Grid item xs={6}>
