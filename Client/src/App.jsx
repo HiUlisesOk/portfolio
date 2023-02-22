@@ -21,6 +21,7 @@ import NavBar from './components/NavBar';
 import Logo from './components/Logo';
 import { FlexContainer } from './components/styles'
 import Header from './components/Header';
+import HireMe from './pages/HireMe';
 
 const theme = createTheme({
   palette: customPalette,
@@ -40,7 +41,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/about-me" element={<About />} />
             <Route path="/tech-skills" element={<TechSkills />} />
-
+            <Route path="/hire-me" element={<HireMe />} />
           </Routes>
 
         </Box>

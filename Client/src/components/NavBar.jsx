@@ -51,7 +51,7 @@ export default function TemporaryDrawer() {
 					{ text: 'About Me', icon: <PersonIcon />, navigate: '/about-me' },
 					{ text: 'Proyects', icon: <WorkIcon />, navigate: '/' },
 					{ text: 'Tech Skills', icon: <DeveloperModeIcon />, navigate: '/tech-skills' },
-					{ text: 'Why Hire Me', icon: <MenuBookIcon />, navigate: '/' },
+					{ text: 'Why Hire Me', icon: <MenuBookIcon />, navigate: '/hire-me' },
 					{ text: 'Contact', icon: <ContactPhoneIcon />, navigate: '/' },
 
 
