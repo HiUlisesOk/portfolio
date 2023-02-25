@@ -22,6 +22,7 @@ import Logo from './components/Logo';
 import { FlexContainer } from './components/styles'
 import Header from './components/Header';
 import HireMe from './pages/HireMe';
+import RecentProjects from './pages/RecentProjects';
 
 const theme = createTheme({
   palette: customPalette,
@@ -42,6 +43,7 @@ function App() {
             <Route path="/about-me" element={<About />} />
             <Route path="/tech-skills" element={<TechSkills />} />
             <Route path="/hire-me" element={<HireMe />} />
+            <Route path="/projects" element={<RecentProjects />} />
           </Routes>
 
         </Box>

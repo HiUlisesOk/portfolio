@@ -51,10 +51,7 @@ color: ${customPalette.secondary.main};
 `;
 
 export const ImageStyles = styled.img`
-/* position:absolute;
-bottom:${props => props.bottom ? props.bottom : "0"};
-right:${props => props.right ? props.right : "0"}; */
-z-index:1;
+
 `;
 
 export const Diamond = styled.div`
