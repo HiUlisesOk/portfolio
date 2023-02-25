@@ -9,9 +9,9 @@ const RecentProjects = () => {
 	return (
 		<FlexContainer direction="column"><SubTitle>Latest Projects</SubTitle>
 			<FlexContainer>
-				<Card image={RickAndMorty} title={data[0].title} subtitle={data[0].subtitle} text={data[0].subtitle} />
-				<Card image={foods} title={data[0].title} subtitle={data[0].subtitle} text={data[0].subtitle} />
-				<Card image={findahome} title={data[0].title} subtitle={data[0].subtitle} text={data[0].subtitle} />
+				<Card image={RickAndMorty} title={data[0].title} subtitle={data[0].subtitle} text={data[0].subtitle} link={data[0].link} />
+				<Card image={foods} title={data[1].title} subtitle={data[1].subtitle} text={data[1].subtitle} link={data[1].link} />
+				<Card image={findahome} title={data[2].title} subtitle={data[2].subtitle} text={data[2].subtitle} link={data[2].link} />
 			</FlexContainer>
 		</FlexContainer>
 	)
