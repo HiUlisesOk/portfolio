@@ -11,9 +11,20 @@ height: ${props => props.h ? props.h : "auto"};
   padding: ${props => props.padding ? props.padding : "1px"};
   align-items: ${props => props.items ? props.items : "center"};
   transform: rotate(${props => props.rotate ? props.rotate : "0"});
-  margin-top: ${props => props.mt ? props.mt : "auto"};
   z-index:${props => props.zindx ? props.zindx : "0"};
-  position:relative;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    
+  }
+`;
+
+export const CardContainer = styled(FlexContainer)`
+padding:3%;
+ min-height: 350px;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ @media (max-width: 768px) {
+    width: 90%;
+  }
 `;
 
 export const Title = styled.h1`

@@ -1,21 +1,24 @@
 [
   {
     "title": "Rick And Morty APP",
-    "subtitle": "React, Redux, CSS Modules, API REST RICK AND MORTY",
+    "techFront": "React, Redux, CSS Modules",
+    "techBack": "API REST RICK AND MORTY",
     "text": "Diseñar y desarrollar una App con la API de Rick And Morty que incluía: búsquedas, filtrados y ordenamientos.",
     "link": "https://github.com/HiUlisesOk/rick-and-morty-proyect-app",
     "demo": "https://rickandmortym2.netlify.app/"
   },
   {
     "title": "PI Food App",
-    "subtitle": "React, Redux, Styled Components, Node.js, Express, PostgreSQL y Sequelize",
+    "techFront": "React, Redux, Styled Components",
+    "techBack": "Node.js, Express, PostgreSQL y Sequelize",
     "text": "Diseñar y desarrollar una App de recetas que incluía: búsquedas, filtrados, ordenamientos y creación.",
     "link": "https://github.com/HiUlisesOk/PI-Food-main",
     "demo": "https://pi-food-henry.netlify.app/Home"
   },
   {
     "title": "Find A Home",
-    "subtitle": "React Native, Expo, Redux, Tailwind, Node.js, Express, Firebase, Expo, MongoDB y Mongoose",
+    "techFront": "React Native, Expo, Redux, Tailwind",
+    "techBack": "Node.js, Express, Firebase, Expo, MongoDB y Mongoose",
     "text": "Diseñar y desarrollar una App de recetas que incluía: búsquedas, filtrados, ordenamientos y creación.",
     "link": "https://github.com/pablo99nunez/Find-a-Home"
   }
