@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Rick And Morty APP",
+    "subtitle": "React, Redux, CSS Modules, API REST RICK AND MORTY",
+    "text": "Diseñar y desarrollar una App con la API de Rick And Morty que incluía: búsquedas, filtrados y ordenamientos.",
+    "link": "https://github.com/HiUlisesOk/rick-and-morty-proyect-app"
+  },
+  {
+    "title": "true",
+    "subtitle": "React, Redux, Styled Components, Node.js, Express, PostgreSQL y Sequelize",
+    "text": "Diseñar y desarrollar una App de recetas que incluía: búsquedas, filtrados, ordenamientos y creación.",
+    "link": "https://github.com/HiUlisesOk/PI-Food-main"
+  },
+  {
+    "title": "Find A Home",
+    "subtitle": "React Native, Expo, Redux, Tailwind, Node.js, Express, Firebase, Expo, MongoDB y Mongoose",
+    "text": "Diseñar y desarrollar una App de recetas que incluía: búsquedas, filtrados, ordenamientos y creación.",
+    "link": "https://github.com/pablo99nunez/Find-a-Home"
+  }
+]
