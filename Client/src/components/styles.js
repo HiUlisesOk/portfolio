@@ -14,7 +14,8 @@ height: ${props => props.h ? props.h : "auto"};
   z-index:${props => props.zindx ? props.zindx : "0"};
   @media (max-width: 768px) {
     flex-direction: column;
-    
+    width: 100%;
+    align-items: center;
   }
 `;
 
@@ -24,6 +25,27 @@ padding:3%;
  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
  @media (max-width: 768px) {
     width: 90%;
+    align-items: center;
+  }
+`;
+export const MenuContainer = styled(FlexContainer)`
+ @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+export const HeaderContainer = styled(FlexContainer)`
+ @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`;
+export const LinksContainer = styled(FlexContainer)`
+ @media (max-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:6px;
   }
 `;
 
@@ -38,6 +60,10 @@ letter-spacing:1.5%;
 margin: ${props => props.margin ? props.margin : "12px"};
 margin-left: ${props => props.ml ? props.ml : "12px"};
 text-align: ${props => props.align ? props.align : "left"};
+@media (max-width: 768px) {
+    width: 100%;
+    text-align:center;
+  }
 `;
 
 export const SubTitle = styled(Title)`
@@ -62,7 +88,15 @@ color: ${customPalette.secondary.main};
 `;
 
 export const ImageStyles = styled.img`
+    width: 100%;
+`;
 
+export const DiamondContainer = styled(FlexContainer)`
+ @media (max-width: 768px) {
+  transform: rotate(0deg) !important;
+   -webkit-transform: rotate(0deg);
+    flex-direction: column;
+  }
 `;
 
 export const Diamond = styled.div`
@@ -73,8 +107,8 @@ position:${props => props.position ? props.position : "relative"};
 bottom:${props => props.bottom ? props.bottom : "0"};
 right:${props => props.right ? props.right : "0"};
 
-background:${props => props.bg ? props.bg : "linear-gradient(90deg, #E99010 0%, #E58523 6.25%, #E27B33 12.5%, #DF743F 18.75%, #DD6E49 25%, #DB6951 31.25%, #DA6657 37.5%, #D9635C 43.75%, #D8615F 50%, #D86061 56.25%, #D75F62 62.5%, #D75E63 68.75%, #D75E64 75%, #D75E64 81.25%, #D75E64 87.5%, #D75E64 93.75%, #D75E64 100%)"} ;
-border:${props => props.border ? props.border : "4px solid #E48229"};
+background:${props => props.bg ? props.bg : "linear-gradient(90deg," + customPalette.primary.main + " 0%, " + customPalette.secondary.main + " 100%)"} ;
+border:${props => props.border ? props.border : "4px solid" + customPalette.primary.main};
 border-radius:${props => props.radius ? props.radius : "16px"};
  transform: rotate(${props => props.rotate ? props.rotate : "0"});
 margin: ${props => props.margin ? props.margin : "12px"};
@@ -86,7 +120,11 @@ transition: ${props => props.transition ? props.transition : "all 0.4s ease-in-o
   scale: ${props => props.scaleHov ? props.scaleHov : "1.1"};
   ${props => props.hover ? props.hover + ";" : ""}
   }
-
+  @media (max-width: 768px) {
+  transform: rotate(0deg) !important;
+   -webkit-transform: rotate(0deg);
+    flex-direction: column;
+  }
 `;
 
 export const IconDiamond = styled.img`
@@ -95,6 +133,10 @@ position: ${props => props.position ? props.position : "relative"};
 top:${props => props.top ? props.top : "0"};
 left:${props => props.left ? props.left : "0"};
 cursor: pointer;
+@media (max-width: 768px) {
+  transform: rotate(0deg) !important;
+   -webkit-transform: rotate(0deg);
+    flex-direction: column;
+  }
 `;
 
-// bottom={evenPosition(index) ? "50px " : "0"} right={evenPosition(index) ? "34px" : "0"} margin={evenPosition(index) ? "18px" : "18px"}

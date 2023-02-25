@@ -11,7 +11,7 @@ import { FlexContainer, Title, SubTitle, Text, TextPrimary, TextSecondary } from
 
 import avatarIMG from "../images/PROFILE_IMAGE_CODE2.png"
 import Image3d from '../components/Image3d'
-import Rocket from '../images/Assets/Saly-43.png'
+import Rocket from '../images/Assets/Saly/Saly-43.png'
 
 const LandingPage = () => {
 	return (

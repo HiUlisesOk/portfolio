@@ -1,7 +1,7 @@
 import React from 'react'
 import Tooltip from '@mui/material/Tooltip';
 
-import { Diamond, IconDiamond, FlexContainer } from './styles'
+import { Diamond, IconDiamond, FlexContainer, DiamondContainer } from './styles'
 
 import Mongo from '../images/Assets/Core Skills/icon _mongodb.png'
 import ex from '../images/Assets/Core Skills/ex.png'
@@ -35,9 +35,9 @@ const SkillsDiamond = () => {
 	return (
 		<div>
 			<FlexContainer>
-				<FlexContainer mt="-110px" w="200px" zindx="1" gap="0" justify="flex-start" rotate="-45deg" wrap="wrap" padding="0">{left.map((skill, index) => <Diamond key={skill + index} radius="0" bg={skill.bg} scale="1" scaleHov="0.9" mr="0" border="0" margin="0" w="100px" h="100px" ><Tooltip title={skill.skillName}><FlexContainer h="100%"><IconDiamond src={skill.icon} /></FlexContainer></Tooltip></Diamond>)}</FlexContainer>
-				<FlexContainer gap="0" w="210px" direction="column" padding="0"><IconDiamond top="0" left="0" rotate="0" src={bluediamond} /><Diamond rotate="45deg" radius="0" bg={"linear-gradient(120deg, rgba(241,242,237,1) 0%, #F7DF1E 30%)"} scale="1" scaleHov="0.9" mr="0" border="0" margin="0" w="100px" h="100px"><Tooltip title="Javascript"><FlexContainer h="100%"><IconDiamond top="-2%" left="-2%" rotate="-45deg" src={js} /></FlexContainer></Tooltip></Diamond></FlexContainer>
-				<FlexContainer mt="-110px" w="200px" zindx="1" gap="0" justify="flex-end" rotate="45deg" wrap="wrap" padding="0">{right.map((skill, index) => <Diamond key={skill + index} radius="0" bg={skill.bg} scale="1" scaleHov="0.9" mr="0" border="0" margin="0" w="100px" h="100px" ><Tooltip title={skill.skillName}><FlexContainer h="100%"><IconDiamond rotate="-45deg" src={skill.icon} /></FlexContainer></Tooltip></Diamond>)}</FlexContainer>
+				<DiamondContainer mt="-110px" w="200px" zindx="1" gap="0" justify="flex-start" rotate="-45deg" wrap="wrap" padding="0">{left.map((skill, index) => <Diamond key={skill + index} radius="0" bg={skill.bg} scale="1" scaleHov="0.9" mr="0" border="0" margin="0" w="100px" h="100px" ><Tooltip title={skill.skillName}><FlexContainer h="100%"><IconDiamond src={skill.icon} /></FlexContainer></Tooltip></Diamond>)}</DiamondContainer>
+				<DiamondContainer gap="0" w="210px" direction="column" padding="0"><IconDiamond top="0" left="0" rotate="0" src={bluediamond} /><Diamond rotate="45deg" radius="0" bg={"linear-gradient(120deg, rgba(241,242,237,1) 0%, #F7DF1E 30%)"} scale="1" scaleHov="0.9" mr="0" border="0" margin="0" w="100px" h="100px"><Tooltip title="Javascript"><FlexContainer h="100%"><IconDiamond top="-2%" left="-2%" rotate="-45deg" src={js} /></FlexContainer></Tooltip></Diamond></DiamondContainer>
+				<DiamondContainer mt="-110px" w="200px" zindx="1" gap="0" justify="flex-end" rotate="45deg" wrap="wrap" padding="0">{right.map((skill, index) => <Diamond key={skill + index} radius="0" bg={skill.bg} scale="1" scaleHov="0.9" mr="0" border="0" margin="0" w="100px" h="100px" ><Tooltip title={skill.skillName}><FlexContainer h="100%"><IconDiamond rotate="-45deg" src={skill.icon} /></FlexContainer></Tooltip></Diamond>)}</DiamondContainer>
 			</FlexContainer>
 		</div >
 	)
