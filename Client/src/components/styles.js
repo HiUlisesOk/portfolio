@@ -13,6 +13,7 @@ height: ${props => props.h ? props.h : "auto"};
   transform: rotate(${props => props.rotate ? props.rotate : "0"});
   margin-top: ${props => props.mt ? props.mt : "auto"};
   z-index:${props => props.zindx ? props.zindx : "0"};
+  position:relative;
 `;
 
 export const Title = styled.h1`
@@ -32,7 +33,7 @@ export const SubTitle = styled(Title)`
 
 font-weight: ${props => props.fw ? props.fw : "400"};
 font-size:  ${props => props.size ? props.size : "1.5rem"};
-line-height:${props => props.lh ? props.lh : "1.125rem"};
+line-height:${props => props.lh ? props.lh : "1.5rem"};
 `;
 
 export const Text = styled(Title)`
@@ -50,9 +51,9 @@ color: ${customPalette.secondary.main};
 `;
 
 export const ImageStyles = styled.img`
-position:absolute;
+/* position:absolute;
 bottom:${props => props.bottom ? props.bottom : "0"};
-right:${props => props.right ? props.right : "0"};
+right:${props => props.right ? props.right : "0"}; */
 z-index:1;
 `;
 
