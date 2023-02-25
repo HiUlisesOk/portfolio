@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 
 
-import { FlexContainer, Title, SubTitle, Text, TextPrimary, TextSecondary, Diamond } from '../components/styles'
+import { FlexContainer, Title, SubTitle, Text, TextPrimary, TextSecondary, Diamond, ImageStyles } from '../components/styles'
 
 import LinksTech from '../components/LinksTech'
 
@@ -33,7 +33,7 @@ const About = () => {
 
 						<FlexContainer justify="flex-end">
 
-							<Image3d height="90%" image={DiamondOrange} />
+							<ImageStyles src={DiamondOrange} />
 
 						</FlexContainer>
 					</Grid>
