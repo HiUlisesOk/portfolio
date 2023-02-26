@@ -3,7 +3,7 @@ const customPalette = {
 		main: '#1086E9',
 	},
 	secondary: {
-		main: '#e97210',
+		main: '#54b1ff',
 	},
 	Japonica: {
 		main: '#D75E64',
