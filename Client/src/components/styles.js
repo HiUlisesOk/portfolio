@@ -124,6 +124,8 @@ transition: ${props => props.transition ? props.transition : "all 0.4s ease-in-o
   transform: rotate(0deg) !important;
    -webkit-transform: rotate(0deg);
     flex-direction: column;
+    margin: ${props => props.margin ? props.margin : "0"};
+margin-right: ${props => props.mr ? props.mr : "0"}; 
   }
 `;
 
