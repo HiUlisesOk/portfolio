@@ -22,7 +22,7 @@ const About = () => {
 					<SubTitle fw="200" align="left" ml="12px">About Me</SubTitle>
 				</FlexContainer>
 				<SubTitle lh="1.8rem"><TextSecondary>Full-Stack Developer</TextSecondary> with experience working in <TextPrimary>NodeJS, React, Redux, Express, SQL</TextPrimary> among other technologies in the sector. </SubTitle>
-				<FlexContainer padding="8px" justify="flex-start">
+				<FlexContainer direction="row" padding="8px" justify="flex-start">
 					<Link to="/tech-skills"><Diamond rotate="-45deg"><DeveloperModeIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond></Link>
 					<Link to="/hire-me"><Diamond rotate="-45deg"><MenuBookIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond></Link>
 					<Link to="/projects"><Diamond rotate="-45deg"><DevicesIcon style={{ fontSize: "2.5rem", rotate: "45deg", position: "absolute", top: "20%", right: "20%" }} /></Diamond></Link>
